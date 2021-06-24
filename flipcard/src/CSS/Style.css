@@ -1,0 +1,551 @@
+.topnavigation{
+    background-color: rgb(9, 26, 83);
+    /* background-color: rgb(96, 109, 151); */
+    height: 50px;
+
+}
+.navbar-brand img{
+    height:40px;
+}
+.nav-link img{
+    height: 15px;
+    margin-left: 40px;
+}
+.inputline{
+margin-left: 83px;
+width: 500px;
+border-bottom: 2px solid #fff;
+
+}
+
+Input{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+  }
+.leftmenu{
+    margin-right: 50px;
+    color: #fff;
+}
+.leftmenu:hover{
+    color: white;
+    text-decoration: none;
+}
+.loginbtn{
+    display: block;
+    margin-top: 5px;
+    font-weight: 5px;
+    margin-right: 80px;
+    color: white;
+    height: 27px;
+    border-radius: 5px;
+    width: 70px;
+    background-color: rgb(212, 25, 128);
+}
+.loginbtn:hover{
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+
+    .topnavigation{
+        background-color: rgb(9, 26, 83);
+        /* background-color: rgb(96, 109, 151); */
+        height: 50px;
+        overflow: hidden;
+    }
+    .navbar-brand img{
+        height:20px;
+    }
+    .nav-link img{
+      display: none;
+    }
+    Input, .view{
+        display: none;
+    }
+    .inputline{
+        margin-left: 85px;
+        width: 110px;
+        margin-top: -85px;
+        border-bottom: 2px solid #fff;
+        display: none;
+     
+        }
+        .leftmenu{
+            margin-top: -60px;
+            margin-left: 300px;
+            font-size: 5px;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .loginbtn{
+            display: block;
+            margin-top: -55px;
+            font-weight: 2px;
+            margin-left: 235px;
+            color: white;
+            height: 14px;
+            border-radius: 1px;
+            width: 40px;
+            overflow: hidden;
+            font-size: 8px;
+            background-color: rgb(212, 25, 128);
+        }
+        .paymentmethod{
+            overflow: hidden;
+        }
+        
+}
+
+@media all and (device-width: 1024px) {
+
+    .inputline{
+        margin-left: 25px;
+        width: 500px;
+        border-bottom: 2px solid #fff;
+        
+        }
+
+        .leftmenu{
+            margin-top: -30px;
+            margin-left: 120px;
+            font-size: 5px;
+            color: #fff;
+        }
+
+        .loginbtn{
+            display: block;
+            margin-top: 5px;
+            font-weight: 5px;
+            margin-left: 25px;
+            color: white;
+            height: 27px;
+            border-radius: 5px;
+            width: 70px;
+            background-color: rgb(212, 25, 128);
+        }
+
+        
+}
+
+
+
+@media all and (device-width: 768px) {
+    .inputline{
+        margin-left: 85px;
+        width: 510px;
+        margin-top: -85px;
+        border-bottom: 2px solid #fff;
+        display: none;
+        }
+        .leftmenu{
+            margin-top: -60px;
+            margin-left: 710px;
+            font-size: 5px;
+            color: #fff;
+        }
+
+        .loginbtn{
+            display: block;
+            margin-top: -55px;
+            font-weight: 2px;
+            margin-left: 650px;
+            color: white;
+            height: 14px;
+            border-radius: 1px;
+            width: 40px;
+            font-size: 8px;
+            background-color: rgb(212, 25, 128);
+        }
+}
+
+/* finish top navbar */
+
+
+/* --------------------------------------------------------------------------------------start main navbar------------------------------------------------------------- */
+#mylist{
+
+        width: 90%;
+        margin: auto;
+        box-shadow: 5px 5px 5px 5px rgb(209, 200, 200);
+        height: 50px;
+        margin-top: 10px;
+    
+}
+#mainmenu{
+    margin-right:-120px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+#listing{
+   display: block;
+   margin-left: 153px;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+    #mylist {
+        flex-flow: row nowrap;
+      }
+      
+      .mainnav {
+          flex-flow: row nowrap;
+          display: inline-flex;
+      }
+
+      #mylist{
+        overflow: hidden;
+        margin-left: 20px;
+        box-shadow: 3px 3px 2px 4px rgb(209, 200, 200);
+        height:30px;
+        margin-top: 10px;
+    
+}
+#mainmenu{
+    margin-right:25px;
+    text-align: center;
+    font-size: 7px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+#listing{
+   display: block;
+   margin-left: 3px;
+}
+}
+
+
+
+/* categories */
+
+.card-title
+{
+    color: rgb(33, 180, 33);
+    font-weight: bold;
+
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+#categorylist li a{
+    text-align: justify;
+    margin-left: 15px;
+    padding: 0px;
+    border-bottom: 1px solid rgb(177, 179, 177);
+    margin:10px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#categorylist li a :hover{
+    color:black
+}
+#categorylist li a img{
+    height: 40px;
+    margin-left: -5px;
+}
+.categoryline{
+    border-bottom: 3px solid rgb(40, 156, 40);
+}
+
+/* slider */
+ .carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+#carouselExampleSlidesOnly{
+    min-height: 75vh;
+}
+
+
+
+
+.slickimg{
+    margin-right: -70px;
+    min-height: 55vh;
+    box-shadow: 2px 2px 2px 2px rgb(209, 200, 200);
+    padding: 30px;
+    background-color: white;
+    border:1px solid rgb(192, 186, 186);
+}
+
+.imggs{
+    height: 140px;
+    margin-left: 20px;
+    padding: 10px;
+   
+}
+.products{
+    overflow: hidden;
+    background-color: rgb(9, 26, 83);
+    margin-top: 10px;
+}
+#price{
+    color: black;
+    font-size: 17px;
+    margin-right: 95px;
+    color: tomato;
+}
+.procutname{
+    font-weight: 1000;
+    font-size: 15px;
+    margin-right: 95px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: -0px;
+    padding: 1px;
+
+
+}
+.topoffer{
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 0px;
+    margin-top: 70px;
+    color: white;
+    font-weight: 800;
+    
+}
+/*  */
+.productcard{
+    background-color: #fff;
+    width: 90%;
+
+}
+#offer{
+    color: red;
+    margin-right: 95px;
+    font-size: 10px;
+    margin-top: 10px;
+    text-decoration: line-through;
+}
+.slick-prev:before,
+.slick-next:before {
+    color:red;
+}
+.grocerysection{
+    margin-top: -40px;
+    background-color: rgb(9, 26, 83);
+}
+/* .slick-slide {
+    margin: 0 -6px;
+}
+
+.slick-list {
+    margin: 0 10px;
+} */
+
+.vl {
+    border-left: 2px solid black;
+    height: 90px;
+    margin-top: -30px;
+  }
+  .ball {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .ftbtn button {
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: rgb(182, 51, 51);
+    width: 200px;
+  }
+  #exampleInputEmail1 {
+    border-radius: 30px;
+    justify-content: center;
+  }
+  .topfooter {
+    background-color: rgb(67, 59, 97);
+    min-height: 0vh;
+    padding: 60px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .mysicon {
+    color: white;
+  }
+  .mainfooter {
+    background-color: #473466;
+    color: white;
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .footerhead a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+  }
+  #visa {
+    color: blue;
+  }
+  #card {
+    color: red;
+  }
+  
+  .paymentmethod p{
+      font-size: 10px;
+      margin: 20px;
+      padding: 10px;
+  }
+.followtext p{
+    font-size: 10px;
+    margin-left: 30px;
+}
+
+.hrline{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-left: -60px;
+    margin-top: 16px;
+}
+  @media only screen and (min-width: 200px) and (max-width: 768px) {
+    .slick-prev:before,
+    .slick-next:before {
+    background-color: red;
+    }
+    .grocerysection{
+        margin-top: 0px;
+        background-color: rgb(0, 60, 255);
+    }
+    .topoffer{
+        font-size: 15px;
+        text-align: justify;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 0px;
+        margin-top: 70px;
+        color: white;
+        font-weight: 800;
+        
+    }
+    .slickimg{
+        margin-right: auto;
+        min-height: 15vh;
+        box-shadow: 2px 2px 2px 2px rgb(209, 200, 200);
+        padding: 0px;
+        background-color: white;
+        border:1px solid rgb(192, 186, 186);
+    }
+    
+    .imggs{
+        height: 50px;
+        margin-left: 20px;
+        padding: 0px;
+       
+    }
+    .products{
+        overflow: hidden;
+        background-color: rgb(9, 26, 83);
+        margin-top: -0px;
+    }
+    #carouselExampleSlidesOnly{
+        display: none;
+    }
+    #price{
+        color: black;
+        font-size: 8px;
+        margin-right: 0px;
+        color: tomato;
+    }
+    #offer{
+        color: red;
+        margin-right: 0px;
+        font-size: 10px;
+        margin-top: 10px;
+        text-decoration: line-through;
+    }
+    .procutname{
+        font-weight: 1000;
+        font-size: 8px;
+        margin-right: 0px;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: -0px;
+        padding: 1px;
+    
+    
+    }
+    .followtext p {
+        font-size: 10px;
+        margin-left: 80px;
+       
+    }
+    .footerhr{
+        border-bottom: 2px solid #fff;
+        display: block;
+    }
+  }
+.followus{
+    flex-flow: row nowrap;
+    display: inline-flex;
+}
+#heads{
+    font-weight: 800;
+}
+  @media all and (device-width: 768px) {
+    .followtext p , .paymentmethod p{
+        font-size: 10px;
+        margin-left: -10px;
+        display: inline;
+    }
+  
+    .imggs{
+        height: 90px;
+        margin-left: 20px;
+        padding: 0px;
+       
+    }
+    .products{
+        overflow: hidden;
+        background-color: rgb(9, 26, 83);
+        margin-top: 10px;
+    }
+    #price{
+        color: black;
+        font-size: 10px;
+        margin-right: 70px;
+        color: tomato;
+    }
+    #offer{
+        color: red;
+        margin-right: 70px;
+        font-size: 10px;
+        margin-top: 10px;
+        text-decoration: line-through;
+    }
+    .procutname{
+        font-weight: 1000;
+        font-size: 12px;
+        margin-right: 70px;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: -0px;
+        padding: 1px;
+    
+    
+    }
+    #carouselExampleSlidesOnly{
+        display: block;
+    }
+    .mycard{
+        padding: 0px;
+        width: auto;
+    }
+    .products{
+        margin-top:-330px ;
+    }
+  }
+
+  @media all and (device-width: 1024px) {
+    .slickimg{
+        margin-right: auto;
+        min-height: 15vh;
+        box-shadow: 2px 2px 2px 2px rgb(209, 200, 200);
+        padding: 0px;
+        background-color: white;
+        border:1px solid rgb(192, 186, 186);
+    }
+    .products{
+        margin-top: -400px;
+    }
+  }

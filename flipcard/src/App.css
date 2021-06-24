@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.contactuspage{
+  margin-top: 200px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+
+textarea{
+  min-height: 30vh;
+}
+#headingone{
+  text-transform: uppercase;
+  font-weight: 800;
+}
+#howto{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#find{
+  text-transform: uppercase;
+  font-weight: 100;
+}
+#finding{
+  font-weight: bold;
+}
+hr{
+  max-width: 280px;
+background-color: rgb(86, 179, 179);
+}
+
+@media only screen and (max-width: 600px) {
+  .contactuspage{
+    margin-top: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+  }
+  #addline{
+    margin-top: 40px;
+  }
+
+}
+
+@media all and (device-width: 1024px) {
+  textarea{
+    min-height: 15vh;
+  }
+}
+
+
+@media all and (device-width: 768px) {
+
+  textarea{
+    min-height: 17vh;
+  }
+}
